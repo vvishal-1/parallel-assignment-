@@ -1,0 +1,23 @@
+Overview This project implements a basic vector addition using NVIDIA's CUDA framework. It demonstrates:
+
+Vector Addition: Adding two vectors element-wise on the GPU.
+
+Statically Defined Global Variables: Utilizing statically allocated memory on the device.
+
+Kernel Execution Timing: Measuring the execution time of the CUDA kernel.
+
+Memory Bandwidth Calculation: Computing both theoretical and measured memory bandwidths.​University of Notre Dame +3 QuantStart +3 GitHub +3
+
+Prerequisites Hardware: NVIDIA GPU with CUDA support.
+
+Software:
+
+CUDA Toolkit installed.
+
+C++ compiler compatible with CUDA (e.g., nvcc).​vrushankdes.ai +5 Learn PDC +5 QuantStart +5
+
+Compilation Compile the CUDA program using the NVIDIA CUDA Compiler:
+
+bash Copy Edit nvcc -O3 -o vector_add vector_add.cu Execution Run the compiled executable:
+
+bash Copy Edit ./vector_add
